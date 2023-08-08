@@ -1,0 +1,17 @@
+<!--Creamos la fuente de transmision para el video-->
+<div *ngIf="modelosListos">
+    <!--Solo se va a ejecutar si existe un componente de Transmision-->
+
+    <video #elementoVideo
+    [style.width] = "width+'px'"
+    [style.height] = "height+'px'"
+    (loadedmetadata)="PrecargaCompleta()" 
+    (play)="VideoReproduciendo()"  
+    *ngIf="transmision"  
+    [srcObject]="transmision">
+
+    </video>
+</div>
+<div *ngIf="!modelosListos">
+    Cargando modelos......
+  </div>
