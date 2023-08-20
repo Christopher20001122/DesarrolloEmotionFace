@@ -1,4 +1,8 @@
+Grupo N°9 EmotionFace
 
+Integrantes: 
+	
+• Garzon Edgar
 • Pallo Christopher
 • Toapanta Milton
 
